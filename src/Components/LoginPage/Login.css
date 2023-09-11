@@ -1,0 +1,48 @@
+.login__logo {
+	object-fit: contain;
+	height: 80px;
+	width: 100px;
+}
+.login {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 2rem;
+}
+.login__container {
+	width: 350px;
+	align-items: center;
+	border: 1px solid #ddd;
+	padding: 1.5rem;
+	border-radius: 0.5rem;
+}
+.login__container label {
+	width: 100%;
+	font-weight: 800;
+}
+.login__container input {
+	padding: 0.5rem 1rem;
+}
+.login__container form {
+	display: flex;
+	gap: 0.3rem;
+	flex-direction: column;
+}
+.login__container h1 {
+	margin-bottom: 2rem;
+}
+.login__container button {
+	margin: 0.7rem 0;
+	padding: 0.6rem;
+	font-weight: 500;
+}
+.sign__btn {
+	background-color: rgb(234, 157, 15);
+	border-color: #ddd;
+	border-radius: 0.3rem;
+}
+
+.login__container p {
+	font-size: 0.9rem;
+}

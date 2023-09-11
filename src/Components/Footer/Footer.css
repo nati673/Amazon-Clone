@@ -1,0 +1,151 @@
+
+
+.cont {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Back-to-top {
+  display: block;
+  text-align: center;
+  padding: 12px 0;
+  background-color: #232f3e;
+  font-size: 13px;
+  color: #ece1e1dd;
+  margin-top: 40px;
+  background-color: #344152;
+}
+.Back-to-top:hover {
+  background-color: #3d4b5e;
+}
+.cont {
+  display: flex;
+  background-color: #232f3e;
+  padding-bottom: 100px;
+  text-align: start;
+  padding-top: 30px;
+}
+a:hover {
+  text-decoration: underline;
+}
+.cont div {
+  margin-right: 90px;
+}
+
+.footer-line {
+  border-top: 1px solid #3a4553;
+  margin-top: 40px;
+}
+.cont h3 {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 10px;
+  font-family: inherit;
+  font-size: 15px;
+}
+li {
+  margin-bottom: 6px;
+}
+ul {
+  list-style: none;
+}
+.Let-Us-Help-You {
+  margin-right: 90px;
+}
+.get-to-know-us {
+  margin-left: 200px;
+}
+.links {
+  color: #ddd;
+  text-decoration: none;
+  font-size: 13px;
+}
+hr.hrr {
+  border: 1px solid gray;
+}
+.bottom {
+  background-color: #232f3e;
+  padding: 40px;
+  display: flex;
+}
+
+.bottom div {
+  margin-right: 10px;
+}
+
+.langu {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(157, 140, 140);
+  max-width: 130px;
+  height: 4px;
+  padding: 11px;
+  font-size: 12px;
+  margin-top: 20px;
+  border-radius: 4px;
+  text-align: center;
+  color: #dddd
+}
+
+.langu img {
+  height: 19px;
+  margin-right: 3px;
+  padding-left: 2px;
+}
+
+.langu span {
+  margin-left: 3px;
+}
+
+img.logo {
+  height: 70px;
+  margin-left: 400px;
+  margin-right: 50px;
+}
+
+.built-by{
+  color: white;
+  width: 100%;
+  background-color: #093e7b;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .cont{
+    display: block;
+    align-items: center;
+  }
+  .get-to-know-us {
+  margin-left: -2px;
+}
+
+.langu img {
+  height: 19px;
+
+}.langu {
+font-size: 7px;
+padding-right:24px;
+/* width: 300px; */
+}
+img.logo {
+  height: 60px;
+  margin-bottom: 30px;
+  margin-left: 370px;
+  margin-right: 80px;
+}
+.bottom{
+  margin-left: -400px;
+  font-size: 20px;
+}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

@@ -1,0 +1,124 @@
+.header {
+  background-color: rgb(0, 0, 0);
+  height: 60px;
+  display: flex;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  color: white;
+}
+/* Logo */
+.header__logo {
+  width: 100%;
+  width: 6rem;
+  margin: 0 20px;
+  margin-top: 0px;
+  object-fit: contain;
+  cursor: pointer;
+  /* color: white; */
+  width: 100px;
+  height: 59px;
+  margin-bottom: 5px;
+}
+/* Input Search */
+.header_search {
+  display: flex;
+  flex: 1;
+  border-radius: 3px;
+  align-items: center;
+}
+.header_searchInput {
+  height: 11px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  width: 100%;
+}
+.header_searchInput:focus {
+  border: 3px solid #e26d0e;
+  border-radius: 3px;
+}
+
+/* Icon */
+.header__searchIcon {
+  margin-top: 24px;
+  cursor: pointer;
+  padding: 3.5px;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  height: 1px;
+  background-color: #cd9042;
+}
+/* Navs Div */
+.header-nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header_option-One {
+  font-size: 10px;
+}
+.header_option-Two {
+  font-size: 13px;
+  font-weight: 800;
+}
+.header_option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 14px;
+}
+.header_optionlogin {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 14px;
+  color: white;
+  text-decoration: underline rgb(0, 0, 0);
+}
+.remove_txt-deco{
+   color: white;
+  text-decoration: underline rgb(0, 0, 0);
+}
+/* Nav Top text */
+.small {
+  font-size: 0.6rem;
+}
+/* cart */
+.header__cart {
+  display: flex;
+  margin-top: 1rem;
+  margin-left: 0.9rem;
+  cursor: pointer;
+  color: white;
+}
+.cart__icon {
+  font-size: 1.6rem;
+}
+.header__cart p {
+  margin-left: 0.6rem;
+  margin-top: 0.23rem;
+  margin-right: 0.6rem;
+}
+.header_basketCount {
+  margin-left: 10px;
+  margin-top: 23px;
+  margin-right: 10px;
+}
+.header_opptionBasket {
+  display: flex;
+  /* align-items: center; */
+  color: white;
+}
+
+
+
+
+/* Media query for smartphones with a maximum width of 768px (adjust as needed) */
+@media screen and (max-width: 768px) {
+ .header{
+height: 70px;
+ }
+}
